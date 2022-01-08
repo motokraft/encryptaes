@@ -1,0 +1,28 @@
+{
+    "name": "motokraft/encryptaes",
+    "description": "Шифрование данных с помощью AES",
+    "keywords": [ "aes", "aes-256", "php" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Motokraft",
+            "email": "valeravk230594@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "motokraft/object": "^1.0.0",
+        "motokraft/traits": "^1.0.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Motokraft\\EncryptAes\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
